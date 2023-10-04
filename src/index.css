@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 h1 {
@@ -36,6 +37,34 @@ h1 {
   line-height: 1.1;
 }
 
+h2{
+  color: rgb(93, 93, 169);
+}
+
+ul{
+  list-style-type: none;
+  line-height: 30px;
+  text-align: left;
+}
+
+p{
+  text-align: left;
+}
+
+.border-p{
+  border-style: solid;
+  padding: 15px;
+}
+
+.border-bullet{
+  border-style: solid;
+  padding: 15px;
+  text-align: left;
+}
+
+p:hover{
+  background-color: rgb(139, 215, 47);
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
